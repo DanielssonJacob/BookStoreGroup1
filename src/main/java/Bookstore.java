@@ -17,5 +17,7 @@ public class Bookstore {
         }
     }
 
+    Book book = new Book();
+
 
 }
