@@ -1,18 +1,19 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Bookstore {
-    private List<Book> Bookstore = new List<Book>();
-    private List<Customer> CustomerList = new List<Customer>();
+    private List<Book> Bookstore = new ArrayList<>();
+    private List<Customer> CustomerList = new ArrayList<>();
 
 
-    public static void showBooks() {
+    public  void showBooks() {
         for (Book book: Bookstore) {
-            System.out.println(book.getName());
+            System.out.println(book.getTitle());
         }
     }
-    public static void showCustomers() {
+    public  void showCustomers() {
         for (Customer customer: CustomerList) {
-            System.out.println(customer.getName());
+            System.out.println(customer.getFirstName() + " " + customer.getLastName());
         }
     }
 
