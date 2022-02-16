@@ -38,7 +38,7 @@ public class Cart {
     public double getTotal() {
         double total = 0;
         for (Book book : cart) {
-            total += book.getPrice;
+            total += book.getPrice();
         }
         return total;
     }
