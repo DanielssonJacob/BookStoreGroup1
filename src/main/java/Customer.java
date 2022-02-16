@@ -1,4 +1,4 @@
-public class Cutomer {
+public class Customer {
 
   private int customerId;
   private String firstName;
@@ -6,7 +6,7 @@ public class Cutomer {
   private String email;
   private int phone;
 
-    public Cutomer(int customerId, String firstName, String lastName, String email, int phone) {
+    public Customer(int customerId, String firstName, String lastName, String email, int phone) {
         this.customerId = customerId;
         this.firstName = firstName;
         this.lastName = lastName;
